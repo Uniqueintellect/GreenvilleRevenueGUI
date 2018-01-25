@@ -17,6 +17,11 @@ namespace GreenvilleRevenueGUI
             InitializeComponent();
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void outputButton_Click(object sender, EventArgs e)
         {
 
