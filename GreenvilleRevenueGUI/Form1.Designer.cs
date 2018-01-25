@@ -104,7 +104,7 @@
             this.outputButton.TabIndex = 6;
             this.outputButton.Text = "Click Me!";
             this.outputButton.UseVisualStyleBackColor = true;
-            this.outputButton.Click += new System.EventHandler(this.label1_Click);
+            this.outputButton.Click += new System.EventHandler(this.OutputButton_Click);
             // 
             // greenvilleRevenueGUI
             // 
