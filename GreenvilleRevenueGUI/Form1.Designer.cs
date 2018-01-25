@@ -53,6 +53,7 @@
             this.lastYearInputTextBox.Name = "lastYearInputTextBox";
             this.lastYearInputTextBox.Size = new System.Drawing.Size(100, 20);
             this.lastYearInputTextBox.TabIndex = 1;
+            this.lastYearInputTextBox.Click += new System.EventHandler(this.label1_Click);
             // 
             // thisYearLabel
             // 
@@ -62,6 +63,7 @@
             this.thisYearLabel.Size = new System.Drawing.Size(307, 13);
             this.thisYearLabel.TabIndex = 2;
             this.thisYearLabel.Text = "Enter the number of people that entered in this year\'s competion";
+            this.thisYearLabel.Click += new System.EventHandler(this.label1_Click);
             // 
             // thisYearInputTextBox
             // 
@@ -69,6 +71,7 @@
             this.thisYearInputTextBox.Name = "thisYearInputTextBox";
             this.thisYearInputTextBox.Size = new System.Drawing.Size(100, 20);
             this.thisYearInputTextBox.TabIndex = 3;
+            this.thisYearInputTextBox.Click += new System.EventHandler(this.label1_Click);
             // 
             // RevenueOuput
             // 
@@ -79,6 +82,7 @@
             this.RevenueOuput.TabIndex = 4;
             this.RevenueOuput.Text = "Revenue Output";
             this.RevenueOuput.Visible = false;
+            this.RevenueOuput.Click += new System.EventHandler(this.label1_Click);
             // 
             // thisVsLastOutput
             // 
@@ -89,6 +93,7 @@
             this.thisVsLastOutput.TabIndex = 5;
             this.thisVsLastOutput.Text = "this year or last year revenue output";
             this.thisVsLastOutput.Visible = false;
+            this.thisVsLastOutput.Click += new System.EventHandler(this.label1_Click);
             // 
             // outputButton
             // 
@@ -99,7 +104,7 @@
             this.outputButton.TabIndex = 6;
             this.outputButton.Text = "Click Me!";
             this.outputButton.UseVisualStyleBackColor = true;
-            this.outputButton.Click += new System.EventHandler(this.outputButton_Click);
+            this.outputButton.Click += new System.EventHandler(this.label1_Click);
             // 
             // greenvilleRevenueGUI
             // 
