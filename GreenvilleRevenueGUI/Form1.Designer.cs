@@ -34,6 +34,7 @@
             this.thisYearInputTextBox = new System.Windows.Forms.TextBox();
             this.RevenueOuput = new System.Windows.Forms.Label();
             this.thisVsLastOutput = new System.Windows.Forms.Label();
+            this.outputButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lastYearLabel
@@ -77,6 +78,7 @@
             this.RevenueOuput.Size = new System.Drawing.Size(86, 13);
             this.RevenueOuput.TabIndex = 4;
             this.RevenueOuput.Text = "Revenue Output";
+            this.RevenueOuput.Visible = false;
             // 
             // thisVsLastOutput
             // 
@@ -88,11 +90,23 @@
             this.thisVsLastOutput.Text = "this year or last year revenue output";
             this.thisVsLastOutput.Visible = false;
             // 
+            // outputButton
+            // 
+            this.outputButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.5F);
+            this.outputButton.Location = new System.Drawing.Point(163, 257);
+            this.outputButton.Name = "outputButton";
+            this.outputButton.Size = new System.Drawing.Size(190, 68);
+            this.outputButton.TabIndex = 6;
+            this.outputButton.Text = "Click Me!";
+            this.outputButton.UseVisualStyleBackColor = true;
+            this.outputButton.Click += new System.EventHandler(this.outputButton_Click);
+            // 
             // greenvilleRevenueGUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(552, 365);
+            this.Controls.Add(this.outputButton);
             this.Controls.Add(this.thisVsLastOutput);
             this.Controls.Add(this.RevenueOuput);
             this.Controls.Add(this.thisYearInputTextBox);
@@ -114,6 +128,7 @@
         private System.Windows.Forms.TextBox thisYearInputTextBox;
         private System.Windows.Forms.Label RevenueOuput;
         private System.Windows.Forms.Label thisVsLastOutput;
+        private System.Windows.Forms.Button outputButton;
     }
 }
 

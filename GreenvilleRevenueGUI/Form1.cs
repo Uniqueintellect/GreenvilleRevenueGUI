@@ -21,5 +21,10 @@ namespace GreenvilleRevenueGUI
         {
 
         }
+
+        private void outputButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
